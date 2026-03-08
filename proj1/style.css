@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div.blue-box{
+  height: 1;
+  width: 1.5;
+  background-color: rgb(37, 60, 178);
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: aliceblue;
+}
+
+
+.header-links{
+  display: flex;
+  justify-content: end;
+  gap:15px;
+  
+}
+
+ul{
+  display: flex;
+  gap: 30px;
+list-style-type: none;
+}
+
+
+
+.blue-button{
+  color: white;
+  background-color: rgb(0, 0, 165);
+  border: 0cap;
+  border-radius: 10px;
+  padding:7px;
+}
+
+.text{
+  height: 150px;
+  width: 500px;
+}
+
+.placeholder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 500px;
+  background-color: grey;
+  border-radius: 20px;
+  
+}
+
+.second-line{
+  display: flex;
+  justify-content: space-around;
+}
+
+.headings {
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.headings .header-links{
+  align-items: center;
+}
+
+.second-line{
+  padding-top: 50px;
+}
+
+
+
+
+
+
+.box-heading{
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.small-boxes{
+  display: flex;
+  padding-left: 100px; 
+  padding-left: 100px;
+  gap: 10px;
+  
+
+  justify-content: space-between;
+  align-content: space-between;
+  gap: 30px;
+}
+
+.conc-box{
+  
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+.conc-box1{
+  height: 150px;
+  width: 150px;
+  border:3px solid blue;
+  border-radius: 10px;
+}
+
+.conc-box2{
+  height: 150px;
+  width: 150px;
+  border:3px solid blue;
+  border-radius: 10px;
+}
+
+
+.conc-box3{
+  height: 150px;
+  width: 150px;
+  border:3px solid blue;
+  border-radius: 10px;
+}
+
+.conc-box4{
+  height: 150px;
+  width: 150px;
+  border:3px solid blue;
+  border-radius: 10px;
+}
